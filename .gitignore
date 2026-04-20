@@ -220,4 +220,5 @@ data/vectors/*
 data/cache/*
 !data/cache/.gitkeep
 data/*.db
+data/localrag.db
 temp.pdf
