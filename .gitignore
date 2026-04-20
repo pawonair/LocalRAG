@@ -208,3 +208,16 @@ __marimo__/
 
 # VSCode
 .DS_Store
+
+# IntelliJ
+.idea
+
+# LocalRAG Data (keep structure, ignore content)
+data/documents/*
+!data/documents/.gitkeep
+data/vectors/*
+!data/vectors/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/*.db
+temp.pdf
